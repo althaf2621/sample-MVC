@@ -2,8 +2,8 @@ trigger:
 - master
 
 pool:
-  vmImage: 'Windows'
-  demands:
+    vmImage: "vs2017-win2016"
+    demands:
   - msbuild
   - visualstudio
   - vstest
